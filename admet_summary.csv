@@ -1,0 +1,4 @@
+ID,Name,Tool,Solubility_mg_mL,GI_absorption,Pgp_substrate,CYP3A4_inhibitor,Caco2_log,hERG_I,hERG_II,Hepatotoxicity,AMES_toxicity,Notes
+1,PROTAC-1 (PEG2/CRBN),SwissADME + pkCSM,1.97e-04,Low,Yes,Yes,1.131,No,No,No,No,"GI absorption prediction unreliable for PROTACs (tool trained on MW<500)"
+2,PROTAC-2 (PEG3/CRBN),SwissADME + pkCSM,2.25e-04,Low,Yes,Yes,1.105,No,No,No,No,"Priority synthesis candidate. CYP3A4 inhibition concern"
+3,PROTAC-3 (PEG4/CRBN),SwissADME + pkCSM,2.56e-04,Low,Yes,No,1.079,No,No,No,No,"No CYP3A4 inhibition — best overall ADMET. Best Fsp3=0.30"
